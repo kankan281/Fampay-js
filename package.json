@@ -1,14 +1,14 @@
 {
   "name": "fampay-api",
-  "version": "1.1.0",
-  "description": "Fampay UPI QR Code Generator & Payment Verification API - Fixed Version",
+  "version": "2.2.0",
+  "description": "Fampay UPI QR Code API - Permanent Login + Real-time Payment Monitoring",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
     "test": "node test.js"
   },
-  "keywords": ["upi", "qrcode", "fampay", "payment", "gmail", "famapp"],
+  "keywords": ["upi", "qrcode", "fampay", "famapp", "payment", "gmail"],
   "author": "",
   "license": "MIT",
   "dependencies": {
