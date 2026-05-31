@@ -1,0 +1,18 @@
+# Render Blueprint for Fampay API v2.2
+
+services:
+  - type: web
+    name: fampay-api
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: SECRET_KEY
+        generateValue: true
